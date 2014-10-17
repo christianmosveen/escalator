@@ -29,6 +29,12 @@ ws.onmessage = function(event) {
 
 <body>
 	<h1>Trappa</h1>
+	<p>
+		var ws = new WebSocket(host); <br />
+		ws.onmessage = function(event) { <br />
+		&nbsp;&nbsp;&nbsp;READ(event.data); <br />
+		};
+	</p>
 	<ul id='sensors'></ul>
 </body>
 </html>
