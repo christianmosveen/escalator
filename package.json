@@ -7,8 +7,11 @@
 	},
 	"dependencies": {
 		"express": "^4.4.5",
-		"ws": "0.4.x"
-	},
+		"ws": "0.4.x",
+        "mongodb": "~2.0"
+
+
+    },
 	"engines": {
 		"node": "0.10.x"
 	},
